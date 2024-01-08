@@ -1,0 +1,127 @@
+*{
+  margin:0;
+  padding:0;
+}
+img{
+  max-width: 100%;
+}
+body{
+  background-color: aqua;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.katta{
+  display: flex;
+  width: 75%;
+  height: 70vh;
+  border:5px solid red;
+}
+.katta1{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('./background.jpg');
+  background-size: 145%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:white;
+}
+.katta1 div{
+  display:flex;
+  background-color: aquamarine;
+  padding:15px 30px;
+  border-radius: 30px;
+  margin:5px;
+}
+.katta1 p{
+  margin:5px;
+}
+.katta1 h2{
+margin:5px;
+}
+.katta2{
+  background-color: white;
+  width: 55%;
+  height: 100%;
+}
+.box1{
+  display: flex;
+  height: 10hv;
+  align-items: center;
+  justify-content: space-between;
+  padding:2% 7%;
+}
+.box1 h1{
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+.box1 svg{
+  font-weight: bold;
+ 
+}
+.box2 {
+  display:flex;
+  justify-content: space-between;
+  padding:0px 7%;
+  font-size: 20px;
+}
+.box2 .b{
+  opacity: 0.5;
+}
+.box0{
+  width: 100%;
+  height: 59vh;
+  
+  display: flex;
+}
+.box3{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.box3 img{
+  border-radius: 50%;
+}
+.box4{
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: bold;
+}
+.box5{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.box5 .div1{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.div1 h2{
+  font-size: 30px;
+}
+.div1 .div2{
+  display: flex;
+  flex-direction: column;
+}
